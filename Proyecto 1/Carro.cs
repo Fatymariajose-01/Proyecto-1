@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace Proyecto_1
 {
-    
-    internal class PagoEfectivo
+    internal class Carro
     {
     }
 }

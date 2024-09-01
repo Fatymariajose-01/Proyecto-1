@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Proyecto_1
 {
-    internal class Estacionamiento
+    public class Estacionamiento
     {
         public int CapacidaTotal { get; set; }
         public int EspaciosDisponibles { get; set; }

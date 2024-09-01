@@ -13,9 +13,9 @@ namespace Proyecto_1
         public string Modelo { get; set; }
         public string Color { get; set; }
         public string Tipo { get; set; }
-        public string HoraEntrada { get; set; }
+        public DateTime HoraEntrada { get; set; }
 
-        public Vehiculo(string placa, string marca, string modelo, string color, string tipo, string horaentrada)
+        public Vehiculo(string placa, string marca, string modelo, string color, string tipo, DateTime horaentrada)
         {
             Placa = placa;
             Marca = marca;
